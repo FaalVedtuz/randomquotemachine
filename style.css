@@ -1,3 +1,8 @@
+h6{
+    font-size: 18px !important;
+    font-weight: lighter !important;
+}
+
 button{
     position:absolute;
 }
@@ -15,4 +20,6 @@ a{
     padding-right:5px;
 }
 
-
+.fbLink{
+    color:#3B5998;
+}

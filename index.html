@@ -1,11 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Random Quote Machine Project for FreeCodeCamp">
     <meta name="author" content="Jayson M. Rondina">
     <meta name="keywords" content="FCC,FreeCodeCamp,Random Quote Machine, FreeCodeCamp challenges">
     <link rel="author" href="https://www.linkedin.com/in/jmrondina/" />
-    <link rel="icon" type="image/png" href="/images/logo.PNG" />
+    <link rel="icon" type="image/png" href="images/logo.PNG" />
 
     <meta property="og:url" content="https://therandomquotemachine-jmr03.c9users.io/index.html" />
     <meta property="og:type" content="website" />
@@ -15,7 +18,6 @@
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-
 
     <!-- local css -->
     <link rel="stylesheet" href="style.css">
@@ -50,11 +52,11 @@
                 <div id="quoteAuthor"></div>
             </div>
             <div class="col s12 m6 right-align">
-                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=FreeCodeCamp%20Rocks!" target="_blank" data-size="default">
-                    <i class="fa fa-twitter-square fa-2x"></i>
+                <a id="tweetLink" class="twitter-share-button" target="_blank" data-size="default">
+                    <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
                 </a>
-                <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftherandomquotemachine-jmr03.c9users.io%2Findex.html&amp;src=sdkpreparse">
-                    <i class="fa fa-facebook-square fa-2x"></i>
+                <a id="fbLink" class="fb-xfbml-parse-ignore fbLink" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftherandomquotemachine-jmr03.c9users.io%2Findex.html&amp;src=sdkpreparse">
+                    <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
                 </a>
             </div>
         </div>
@@ -66,12 +68,13 @@
         </div>
     </div>
     <footer>
-        <p id="myName" class="center-align blue-text text-lighten-3">by JMR</p>
+        <p id="myName" class="center-align red-text text-lighten-2">by JMR</p>
     </footer>
 
     <!-- SCRIPTS -->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
     <script src="https://use.fontawesome.com/27e9770f27.js"></script>
-    <script src="/quote.js"></script>
+    <script src="quote.js"></script>
 </body>
+</html>
